@@ -17,7 +17,7 @@ F90 Simple Shop System is a script that enables ARMA 3 mission maker to easily i
 
 ## Installation
 * Download the latest release from the [releases](https://github.com/NikolaiF90/F90SimpleShop/releases) page.
-* Extract the zip file to your mission folder.
+* Extract F90SimpleShopSystem from the zip file to your mission folder.
 
 ## Usage
 * Open 3DEN Mission Editor.
