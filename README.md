@@ -37,7 +37,7 @@ F90 Simple Shop System is a script that enables ARMA 3 mission maker to easily i
 * Create a pull request. 
 
 ## License 
-[![License APL-SA](https://img.shields.io/badge/APL--SA-black?style=plastic)](https://www.bohemia.net/community/licenses)
+[![License APL-SA](https://img.shields.io/badge/APL--SA-black?style=plastic)](https://www.bohemia.net/community/licenses/arma-public-license-share-alike)
 
 With this license you are free to adapt (i.e. modify, rework or update) and share (i.e. copy, distribute or transmit) the material under the following conditions:   
 * Attribution - You must attribute the material in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the material).
