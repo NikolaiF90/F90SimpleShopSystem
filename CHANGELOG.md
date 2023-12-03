@@ -1,4 +1,4 @@
-# F90 Simple Shop Changelog
+# F90 Simple Shop System Changelog
 
 ## Known Issues
 None currently
