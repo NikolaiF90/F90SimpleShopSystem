@@ -2,6 +2,7 @@
 [![Change log Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-white?style=plastic&logo=github&labelColor=black&color=teal)](CHANGELOG.md)
 [![Hits](https://hits.sh/github.com/NikolaiF90/F90SimpleShop.svg?style=plastic&label=Repo%20Visits&extraCount=1&color=268f6e&labelColor=000000&logo=githubsponsors)](https://hits.sh/github.com/NikolaiF90/F90SimpleShop/)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-teal?style=plastic&logo=buymeacoffee&labelColor=black)](https://www.buymeacoffee.com/princef90)
+[![Download Count](https://hits.sh/github.com/NikolaiF90/F90SimpleShopSystem/releases.svg?style=plastic&label=Downloads&color=2f7659&labelColor=000000&logo=googlecloud)](https://hits.sh/github.com/NikolaiF90/F90SimpleShopSystem/releases/)
 
 ![CoverImage](F90SimpleShopCover.jpg)
 
