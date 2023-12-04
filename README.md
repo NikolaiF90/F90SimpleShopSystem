@@ -23,7 +23,8 @@ F90 Simple Shop System is a script that enables ARMA 3 mission maker to easily i
 * Open 3DEN Mission Editor.
 * Add your shop objects across the map. Shop objects can be anything from units to objects. 
 * Name your shop object to something that can be easily remembered like VehicleShop_0, VehicleShop_1 and so on.
-* Create a shop object for each side. 
+* Create a shop object for each side.
+* If you already have a description.ext and init.sqf, copy everything to your own file.
 * Inside your mission folder >> Scripts >> configureShop.sqf, you will see a few settings.
 * Change those settings to your preferences. Default values works great too. You can try with default value if you're not so sure. 
 * Edit the value of Shop_Money to your "money" variable. Default is "Milcash". Note that the value must be in STRING. Also this will only apllies to unit's money.
