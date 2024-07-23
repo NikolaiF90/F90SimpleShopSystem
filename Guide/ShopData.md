@@ -25,5 +25,5 @@ Just remember, the function must be in **STRING** not CODE.
 
 ## Marker type 
 Leaving this element empty won't be a problem. The system will use default icon `"fmarker_Shop"` as the shop's marker. Just install the mod I've included in the system. 
-Yes, I've included a [simple marker mod]() too. This mod is very lightweight as it only stores the markers icon. To install the mod, move the mod folder to you mods collection, the folder name usually starts with **@**. Then exit Arma 3 if you already had it open. From the launcher, click the add local mod and choose the addon folder `@modName\addons`. That's all. You can start your game and the mod will applied immediately.
+Yes, I've included a [simple marker mod](https://github.com/NikolaiF90/F90SimpleShopSystem/tree/main/Dependencies) too. This mod is very lightweight as it only stores the markers icon. To install the mod, move the mod folder to you mods collection, the folder name usually starts with **@**. Then exit Arma 3 if you already had it open. From the launcher, click the add local mod and choose the addon folder `@modName\addons`. That's all. You can start your game and the mod will applied immediately.
 If you do not wish the extra works of installing mods, just use any marker type as the icon. Maybe `loc_Ruin`.
