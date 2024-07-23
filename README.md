@@ -1,12 +1,12 @@
 # F90 Simple Shop System
-[![Change log Version 1.0.0](https://img.shields.io/badge/Version-1.0.0-white?style=plastic&logo=github&labelColor=black&color=teal)](CHANGELOG.md)
+[![Change log Version 2.0.0](https://img.shields.io/badge/Version-2.0.0-white?style=plastic&logo=github&labelColor=black&color=teal)](CHANGELOG.md)
 [![Hits](https://hits.sh/github.com/NikolaiF90/F90SimpleShop.svg?style=plastic&label=Repo%20Visits&extraCount=1&color=268f6e&labelColor=000000&logo=githubsponsors)](https://hits.sh/github.com/NikolaiF90/F90SimpleShop/)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-teal?style=plastic&logo=buymeacoffee&labelColor=black)](https://www.buymeacoffee.com/princef90)
 
 ![CoverImage](F90SimpleShopCover.jpg)
 
 ## Description
-F90 Simple Shop System is a script that enables ARMA 3 mission maker to easily implement a shop system in their custom mission.
+F90 Simple Shop System is a script that enables ARMA 3 mission maker to easily implement a shop system in their custom mission. This system is a part of my current project, Project RedS******. Not yet released
 
 ## Features 
 * Can be used to create any kinds of shops(Vehicle shop, weapon shop, recruit units, and etc).
@@ -20,18 +20,11 @@ F90 Simple Shop System is a script that enables ARMA 3 mission maker to easily i
 * Extract F90SimpleShopSystem from the zip file to your mission folder.
 
 ## Usage
+* Copy all the files inside F90SimpleShopSystem into your mission folder.
 * Open 3DEN Mission Editor.
 * Add your shop objects across the map. Shop objects can be anything from units to objects. 
 * Name your shop object to something that can be easily remembered like VehicleShop_0, VehicleShop_1 and so on.
-* Create a shop object for each side.
-* If you already have a description.ext and init.sqf, copy everything to your own file.
-* Inside your mission folder >> Scripts >> configureShop.sqf, you will see a few settings.
-* Change those settings to your preferences. Default values works great too. You can try with default value if you're not so sure. 
-* Edit the value of Shop_Money to your "money" variable. Default is "Milcash". Note that the value must be in STRING. Also this will only apllies to unit's money.
-* If you intend to use another score system, like team score, or faction points etc, you can take a look at Scripts >> economyHandler.sqf. 
-* Back with configureShop.sqf, scroll a little bit to the bottom, you will see a few arrays named Shop_BLUFORWeaponShops, Shop_OPFORVehicleShops and etc. Add your shop object inside those arrays according to their side and types. 
-* Inside your mission folder >> Scripts >> InitShopItems.sqf, you can add anything to sell on the shop. Here you should include the item classname, display name, and price.
-* From here you are pretty much done. You don't need to edit anything else. 
+* Read [Getting Started](Guide\GettingStarted.md).
 
 ## Contributing
 * Fork the repository.

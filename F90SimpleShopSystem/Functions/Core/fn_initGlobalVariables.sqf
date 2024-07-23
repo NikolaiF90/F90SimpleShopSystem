@@ -1,0 +1,1 @@
+// Stores all variables that shared across the network

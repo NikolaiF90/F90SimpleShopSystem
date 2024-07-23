@@ -1,107 +1,83 @@
 class shopMenu
 {
-	idd = 1005;
+	idd = 1100;
 	class controls
 	{
 		////////////////////////////////////////////////////////
-		// GUI EDITOR OUTPUT START (by PrinceF90, v1.063, #Matyjo)
+		// GUI EDITOR OUTPUT START (by Nikolai, v1.063, #Ziryne)
 		////////////////////////////////////////////////////////
 
-		class vehicleShop_main: RscText
+		class bg_ShopMenu1: RscText
 		{
-			idc = -1;
-
-			x = 0.396875 * safezoneW + safezoneX;
-			y = 0.247 * safezoneH + safezoneY;
-			w = 0.20625 * safezoneW;
-			h = 0.506 * safezoneH;
-			colorBackground[] = {0.176,0.388,0.251,1};
+			idc = 1101;
+			x = 0.29375 * safezoneW + safezoneX;
+			y = 0.225 * safezoneH + safezoneY;
+			w = 0.4125 * safezoneW;
+			h = 0.55 * safezoneH;
+			colorBackground[] = {0.125,0.235,0.2,1};
 		};
-		class RscText_1001: RscText
+		class bg_ShopMenu2: RscText
 		{
-			idc = -1;
-
-			x = 0.412344 * safezoneW + safezoneX;
-			y = 0.291 * safezoneH + safezoneY;
-			w = 0.175313 * safezoneW;
-			h = 0.429 * safezoneH;
-			colorBackground[] = {0.118,0.231,0.157,1};
+			idc = 1102;
+			x = 0.298904 * safezoneW + safezoneX;
+			y = 0.269 * safezoneH + safezoneY;
+			w = 0.402187 * safezoneW;
+			h = 0.451 * safezoneH;
+			colorBackground[] = {0.192,0.365,0.31,1};
 		};
-		class RscText_1002: RscText
+		class text_ShopMenuTitle: RscText
 		{
-			idc = 5001;
-
-			text = "SHOP"; //--- ToDo: Localize;
-			x = 0.463906 * safezoneW + safezoneX;
-			y = 0.247 * safezoneH + safezoneY;
-			w = 0.0670312 * safezoneW;
+			idc = 1103;
+			text = "Shop Name Here"; //--- ToDo: Localize;
+			x = 0.453594 * safezoneW + safezoneX;
+			y = 0.225 * safezoneH + safezoneY;
+			w = 0.0825 * safezoneW;
 			h = 0.044 * safezoneH;
 		};
-		class ShopDialog_ListBox: RscListBox
+		class button_ShopBuy: RscButton
 		{
-			idc = 5002;
-
-			x = 0.427812 * safezoneW + safezoneX;
-			y = 0.313 * safezoneH + safezoneY;
-			w = 0.144375 * safezoneW;
-			h = 0.242 * safezoneH;
-			colorBackground[] = {0.176,0.388,0.251,1};
-		};
-		class RscText_1003: RscText
-		{
-			idc = -1;
-
-			x = 0.427812 * safezoneW + safezoneX;
-			y = 0.577 * safezoneH + safezoneY;
-			w = 0.144375 * safezoneW;
+			idc = 1104;
+			
+			text = "Purchase"; //--- ToDo: Localize;
+			x = 0.608281 * safezoneW + safezoneX;
+			y = 0.731 * safezoneH + safezoneY;
+			w = 0.0928125 * safezoneW;
 			h = 0.033 * safezoneH;
-			colorBackground[] = {0.176,0.388,0.251,1};
+			colorBackground[] = {0.192,0.365,0.31,1};
+			tooltip = "Purchase The Selected Item"; //--- ToDo: Localize;
 		};
-		class RscText_1004: RscText
+		class button_ShopClose: RscButton
 		{
-			idc = -1;
+			idc = 1105;
+			action = "[] call F90_fnc_closeMenu";
 
-			x = 0.427812 * safezoneW + safezoneX;
-			y = 0.621 * safezoneH + safezoneY;
-			w = 0.144375 * safezoneW;
+			text = "Close"; //--- ToDo: Localize;
+			x = 0.520625 * safezoneW + safezoneX;
+			y = 0.731 * safezoneH + safezoneY;
+			w = 0.0825 * safezoneW;
 			h = 0.033 * safezoneH;
-			colorBackground[] = {0.176,0.388,0.251,1};
+			colorBackground[] = {0.5,0,0,1};
+			tooltip = "Close This Menu"; //--- ToDo: Localize;
 		};
-		class ShopDialog_Button: RscButton
+		class text_ShopBalance: RscText
 		{
-			idc = 5003;
-			action = "[] call F90_fnc_purchaseShopItem";
-
-			text = "PURCHASE"; //--- ToDo: Localize;
-			x = 0.427812 * safezoneW + safezoneX;
-			y = 0.665 * safezoneH + safezoneY;
-			w = 0.144375 * safezoneW;
-			h = 0.033 * safezoneH;
-			colorBackground[] = {0.176,0.388,0.251,1};
+			idc = 1106;
+			text = "Money: XXXXXXX"; //--- ToDo: Localize;
+			x = 0.304062 * safezoneW + safezoneX;
+			y = 0.225 * safezoneH + safezoneY;
+			w = 0.0928125 * safezoneW;
+			h = 0.044 * safezoneH;
 		};
-		class ShopDialog_PriceText: RscText
+		class listBox_ShopItems: RscListbox
 		{
-			idc = 5004;
-
-			text = "Price: 0"; //--- ToDo: Localize;
-			x = 0.427812 * safezoneW + safezoneX;
-			y = 0.577 * safezoneH + safezoneY;
-			w = 0.144375 * safezoneW;
-			h = 0.033 * safezoneH;
-		};
-		class ShopDialog_MoneyText: RscText
-		{
-			idc = 5005;
-
-			text = "Money: 0"; //--- ToDo: Localize;
-			x = 0.427812 * safezoneW + safezoneX;
-			y = 0.621 * safezoneH + safezoneY;
-			w = 0.144375 * safezoneW;
-			h = 0.033 * safezoneH;
+			idc = 1107;
+			x = 0.298906 * safezoneW + safezoneX;
+			y = 0.28 * safezoneH + safezoneY;
+			w = 0.402187 * safezoneW;
+			h = 0.429 * safezoneH;
 		};
 		////////////////////////////////////////////////////////
 		// GUI EDITOR OUTPUT END
 		////////////////////////////////////////////////////////
-		
 	};
 };
