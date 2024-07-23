@@ -1,0 +1,1 @@
+// Stores all variables for the server ONLY

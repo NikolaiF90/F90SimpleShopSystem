@@ -1,7 +1,12 @@
 #include "Dialog\defines.hpp"
 #include "Dialog\dialog.hpp"
 
+author = "PrinceF90";
+onLoadName = "F90 Simple Shop System";
+onLoadMission = "What do you call a lazy businessman? Entitlement broker";
+loadScreen = "";
+
 class CfgFunctions
 {
-	#include "functions.hpp"
+	#include "cfgFunctions.hpp"
 };
