@@ -24,7 +24,7 @@ F90 Simple Shop System is a script that enables ARMA 3 mission maker to easily i
 * Open 3DEN Mission Editor.
 * Add your shop objects across the map. Shop objects can be anything from units to objects. 
 * Name your shop object to something that can be easily remembered like VehicleShop_0, VehicleShop_1 and so on.
-* Read [Getting Started](Guide\GettingStarted.md).
+* Read [Getting Started](Guide/GettingStarted.md).
 
 ## Contributing
 * Fork the repository.
