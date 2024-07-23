@@ -14,6 +14,7 @@ F90 Simple Shop System is a script that enables ARMA 3 mission maker to easily i
 * Fast and fully optimized. 
 * Fully customizeable according to your preference.
 * Easy to maintain.
+* Multiplayer compatible.
 
 ## Installation
 * Download the latest release from the [releases](https://github.com/NikolaiF90/F90SimpleShop/releases) page.
