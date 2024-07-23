@@ -8,6 +8,7 @@ None currently
 ### Version 2.0.0
 * Complete overhaul of the whole system.
 * Added Utils which contains dozens of scripts which might be useful for mission designers.
+* Added guides. A detailed guide for setting a somewhat simple shop system.
 * As simple as promised. Much more simple than expected.
 * 10x easier to setup than previous version.
 * Faster, optimized, bugless than previous version. 
